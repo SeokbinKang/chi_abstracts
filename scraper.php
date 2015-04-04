@@ -24,7 +24,7 @@ foreach ($urls as $url)
 {
     print $url[0];
     $html = scraperWiki::scrape($url[0]);
-    print "scraper done";
+    print $html;
     $dom->load($html);
     
     $papertitle = array();
