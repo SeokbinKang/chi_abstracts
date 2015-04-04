@@ -4,7 +4,7 @@ require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php'; 
 $dom = new simple_html_dom();
 $urls = array();
-//$urls[] = array("https://dl.acm.org/citation.cfm?id=2207676&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2012, 0);
+$urls[] = array("https://dl.acm.org/citation.cfm?id=2207676&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2012, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=1978942&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2011, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=1753326&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2010, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=1518701&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2009, 0);
@@ -17,7 +17,7 @@ $urls = array();
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=642611&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2003, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=503376&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2002, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=365024&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2001, 0);
-$urls[] = array("https://dl.acm.org/citation.cfm?id=302979&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 1999, 0);
+//$urls[] = array("https://dl.acm.org/citation.cfm?id=302979&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 1999, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=302979&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 1998, 0);
 
 foreach ($urls as $url)
