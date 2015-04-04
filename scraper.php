@@ -26,11 +26,12 @@ foreach ($urls as $url)
     $html = scraperWiki::scrape($url[0]);
     print $url[1];
     $dom->load($html);
-    
+    print $url[1];
     $papertitle = array();
     $paperurl = array();
     $authorlist = array();
     $abstract = array();
+    print $url[1];
     $d = $dom->find("tr td[colspan=1]");
     print count($d);
     $d = array_slice($d, $url[2]); 
