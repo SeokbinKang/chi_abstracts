@@ -54,7 +54,7 @@ foreach ($urls as $url)
             'papertitle' => $papertitle[$i],
             'authorlist' => $authorlist[$i],
             'num_authors' => count(explode(",", $authorlist[$i])),
-            'abstract' => $abstract[$i],
+         //   'abstract' => $abstract[$i],
             'year' => $url[1]
         );
         scraperwiki::save_sqlite(array('paperurl'), $record); 
