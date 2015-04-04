@@ -23,10 +23,12 @@ $urls[] = array("https://dl.acm.org/citation.cfm?id=1753326&CFID=91570192&CFTOKE
 foreach ($urls as $url)
 {
     print $url[0];
+    print $url[0];
     $html = scraperWiki::scrape($url[0]);
     print $url[1];
-    $dom->load($html);
     print $url[1];
+    $dom->load($html);
+    print $url[2];
     $papertitle = array();
     $paperurl = array();
     $authorlist = array();
