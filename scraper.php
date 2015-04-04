@@ -30,6 +30,7 @@ foreach ($urls as $url)
     $authorlist = array();
     $abstract = array();
     $d = $dom->find("tr td[colspan=1]");
+    print count($d);
     $d = array_slice($d, $url[2]); 
     foreach($d as $data)
     {
@@ -40,11 +41,11 @@ foreach ($urls as $url)
         $authorlist[] = $first_sib->find("td span", 0)->plaintext;
         //print $first_sib->find("td span", 0)->plaintext;
     }
-
+    
     //foreach($dom->find("div[style=padding-left:20]") as $data) // for 2005-12 and 2002, 2003
     foreach($dom->find("div[style=padding-left:0]") as $data)
     {
-        $abstract[] = $data->find("span", 1)->plaintext;
+        //$abstract[] = $data->find("span", 1)->plaintext;
     }
 
     for($i = 0;$i < count($papertitle);$i++)
