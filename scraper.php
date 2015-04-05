@@ -35,6 +35,7 @@ foreach ($urls as $url)
     $authorlist = array();
     $abstract = array();
     print $url[1];
+    continue ;
     $d = $dom->find("tr td[colspan=1]");
     print count($d);
     $d = array_slice($d, $url[2]); 
