@@ -5,7 +5,7 @@ require 'scraperwiki/simple_html_dom.php';
 $dom = new simple_html_dom();
 $urls = array();
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=2207676&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2012, 0);
-$urls[] = array("https://dl.acm.org/citation.cfm?id=1978942&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2011, 0);
+//$urls[] = array("https://dl.acm.org/citation.cfm?id=1978942&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2011, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=1753326&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2010, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=1518701&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2009, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=1357054&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2008, 14);
