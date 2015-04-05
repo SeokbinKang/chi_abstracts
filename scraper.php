@@ -19,7 +19,7 @@ $urls[] = array("https://dl.acm.org/citation.cfm?id=1978942&CFID=91570192&CFTOKE
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=365024&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 2001, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=302979&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 1999, 0);
 //$urls[] = array("https://dl.acm.org/citation.cfm?id=302979&CFID=91570192&CFTOKEN=99756614&preflayout=flat", 1998, 0);
-
+$urls[] = array("https://scholar.google.com/citations?mauthors=label%3Ahuman_computer_interaction&hl=en&view_op=search_authors",2000,0);
 foreach ($urls as $url)
 {
     print $url[0];
